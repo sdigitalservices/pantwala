@@ -3,44 +3,52 @@
 <html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {"colors": {"outline": "#7f7663", "tertiary": "#5f5e5e", "on-tertiary-container": "#454544", "surface-container-high": "#fde987", "surface-bright": "#fff9ec", "on-background": "#211b00", "surface-dim": "#eeda7b", "on-secondary-fixed": "#1b1c1a", "on-error-container": "#93000a", "tertiary-container": "#b4b2b2", "surface-tint": "#735c00", "on-secondary-container": "#626360", "tertiary-fixed": "#e5e2e1", "primary-fixed-dim": "#e9c349", "primary-fixed": "#ffe088", "on-primary-container": "#554300", "secondary-fixed": "#e3e2df", "inverse-surface": "#393000", "on-error": "#ffffff", "background": "#fff9ec", "primary-container": "#d4af37", "on-surface-variant": "#4d4635", "surface-container": "#ffeea3", "on-tertiary": "#ffffff", "surface": "#fff9ec", "on-primary-fixed": "#241a00", "secondary-container": "#e0e0dc", "inverse-primary": "#e9c349", "on-tertiary-fixed-variant": "#474746", "on-secondary": "#ffffff", "on-primary": "#ffffff", "on-surface": "#211b00", "error-container": "#ffdad6", "surface-container-lowest": "#ffffff", "secondary-fixed-dim": "#c7c7c3", "surface-container-highest": "#f7e382", "surface-container-low": "#fff4c9", "tertiary-fixed-dim": "#c8c6c5", "inverse-on-surface": "#fff1b7", "outline-variant": "#d0c5af", "on-tertiary-fixed": "#1c1b1b", "surface-variant": "#f7e382", "on-secondary-fixed-variant": "#464744", "on-primary-fixed-variant": "#574500", "error": "#ba1a1a", "secondary": "#5e5f5c", "primary": "#735c00"}, "borderRadius": {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"}, "spacing": {"space-lg": "4rem", "margin": "3rem", "gutter": "2rem", "space-sm": "1rem", "space-xs": "0.5rem", "space-xl": "6rem", "space-md": "2rem"}, "fontFamily": {"headline-sm": ["Montserrat"], "label-lg": ["Montserrat"], "headline-md": ["Montserrat"], "body-md": ["Open Sans"], "headline-xl": ["Montserrat"], "body-lg": ["Open Sans"], "body-sm": ["Open Sans"], "headline-lg-mobile": ["Montserrat"], "label-sm": ["Montserrat"], "headline-lg": ["Montserrat"], "label-md": ["Montserrat"]}, "fontSize": {"headline-sm": ["18px", {"lineHeight": "24px", "fontWeight": "600"}], "label-lg": ["13px", {"lineHeight": "16px", "letterSpacing": "0.15em", "fontWeight": "500"}], "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}], "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "headline-xl": ["48px", {"lineHeight": "60px", "letterSpacing": "0.02em", "fontWeight": "700"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "headline-lg-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "0.01em", "fontWeight": "700"}], "label-sm": ["10px", {"lineHeight": "12px", "letterSpacing": "0.25em", "fontWeight": "500"}], "headline-lg": ["36px", {"lineHeight": "46px", "letterSpacing": "0.01em", "fontWeight": "700"}], "label-md": ["11px", {"lineHeight": "14px", "letterSpacing": "0.2em", "fontWeight": "500"}]}}}};</script>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/></head><body class="bg-surface font-body-md text-on-surface">
-<header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
-<div class="h-20 max-w-7xl mx-auto px-gutter flex items-center justify-between">
-<div class="flex items-center gap-space-sm">
-<img alt="Pantwala Tailors Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEgQ8J5rUiiZ0J3FS8iFmpOvKjmt9kM_0GhyBwizcaDPfwqghJGkojLybJ06PP6Ndm4rubytHk3UjlfwlbJlBEeZ26dSMLwl3tBbYK4VcIWRhrHAHk6b2yQR8X3TeQnDfxonC0WSLIgvZfp39D4vsUl7EgdtRL5LGaxkTymawovGEaSXDEkg0YDRYE0cHDwx7ZKvvXimhdcSiU9GpeqgoJ2dWXqBQ503rL3gBh_ufi"/>
-<span class="font-headline-md text-on-surface tracking-wide uppercase text-sm sm:text-base text-primary">Pantwala Tailors</span>
-</div>
-<!-- Desktop Navigation -->
-<nav class="hidden lg:flex items-center gap-5 xl:gap-6 whitespace-nowrap" id="desktop-nav">
-<a class="text-label-lg uppercase text-on-surface-variant hover:text-on-surface transition-colors font-bold" data-target="home" href="#">Home</a>
-<a class="text-label-lg uppercase text-on-surface-variant hover:text-on-surface transition-colors font-bold" data-target="services" href="#services">Services</a>
-<a class="text-label-lg uppercase text-on-surface-variant hover:text-on-surface transition-colors font-bold" data-target="why-us" href="#why-us">Why Us</a>
-<a class="text-label-lg uppercase text-on-surface-variant hover:text-on-surface transition-colors font-bold" data-target="about" href="#about">About</a>
-<a class="text-label-lg uppercase text-on-surface-variant hover:text-on-surface transition-colors font-bold" data-target="founder" href="#founder">Founder</a>
-<a class="text-label-lg uppercase text-on-surface-variant hover:text-on-surface transition-colors font-bold" data-target="gallery" href="#gallery">Gallery</a>
-<a class="text-label-lg uppercase text-on-surface-variant hover:text-on-surface transition-colors font-bold" data-target="testimonials" href="#testimonials">Testimonials</a>
-<a class="text-label-lg uppercase text-on-surface-variant hover:text-on-surface transition-colors font-bold" data-target="contact" href="#contact">Contact</a>
-</nav>
-<div class="flex items-center gap-space-sm">
-<div class="hidden sm:flex w-8 h-8 rounded-full bg-primary items-center justify-center"><svg class="w-4 h-4 text-on-primary" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.242-4.242 3 3 0 004.242 4.242Z15 6a3 3 0 104.242 4.242A3 3 0 0015 6z" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
-<!-- Mobile Menu Toggle Button -->
-<button aria-label="Toggle Menu" class="lg:hidden w-11 h-11 flex items-center justify-center rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-colors focus:outline-none" id="mobile-menu-btn">
-<span class="material-symbols-outlined text-[24px]" id="menu-icon">menu</span>
-</button>
-</div>
-</div>
-<!-- Mobile Drawer / Dropdown Menu -->
-<div class="lg:hidden absolute top-20 left-0 w-full bg-[#fff9ec] shadow-2xl border-b border-outline-variant/30 transform -translate-y-full opacity-0 pointer-events-none transition-all duration-300 ease-in-out" id="mobile-menu">
-<nav class="flex flex-col px-gutter py-space-md gap-2">
-<a class="flex items-center min-h-[44px] px-4 rounded-lg text-label-lg uppercase text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-bold" data-target="home" href="#">Home</a>
-<a class="flex items-center min-h-[44px] px-4 rounded-lg text-label-lg uppercase text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-bold" data-target="services" href="#services">Services</a>
-<a class="flex items-center min-h-[44px] px-4 rounded-lg text-label-lg uppercase text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-bold" data-target="why-us" href="#why-us">Why Us</a>
-<a class="flex items-center min-h-[44px] px-4 rounded-lg text-label-lg uppercase text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-bold" data-target="about" href="#about">About</a>
-<a class="flex items-center min-h-[44px] px-4 rounded-lg text-label-lg uppercase text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-bold" data-target="founder" href="#founder">Founder</a>
-<a class="flex items-center min-h-[44px] px-4 rounded-lg text-label-lg uppercase text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-bold" data-target="gallery" href="#gallery">Gallery</a>
-<a class="flex items-center min-h-[44px] px-4 rounded-lg text-label-lg uppercase text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-bold" data-target="testimonials" href="#testimonials">Testimonials</a>
-<a class="flex items-center min-h-[44px] px-4 rounded-lg text-label-lg uppercase text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-bold" data-target="contact" href="#contact">Contact</a>
-</nav>
-</div>
+<header class="fixed top-0 left-0 w-full z-50 bg-[#fff9ec] border-b border-outline-variant/40 shadow-[0_2px_10px_rgba(33,27,0,0.06)]">
+  <div class="h-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-gutter flex items-center justify-between gap-4">
+    <!-- Left: Brand Logo & Title -->
+    <a href="#home" data-target="home" class="flex items-center gap-3 shrink-0">
+      <img alt="Pantwala Tailors Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEgQ8J5rUiiZ0J3FS8iFmpOvKjmt9kM_0GhyBwizcaDPfwqghJGkojLybJ06PP6Ndm4rubytHk3UjlfwlbJlBEeZ26dSMLwl3tBbYK4VcIWRhrHAHk6b2yQR8X3TeQnDfxonC0WSLIgvZfp39D4vsUl7EgdtRL5LGaxkTymawovGEaSXDEkg0YDRYE0cHDwx7ZKvvXimhdcSiU9GpeqgoJ2dWXqBQ503rL3gBh_ufi"/>
+      <span class="font-headline-md text-primary tracking-wide uppercase text-sm sm:text-base whitespace-nowrap">Pantwala Tailors</span>
+    </a>
+
+    <!-- Center: Desktop Navigation (Visible when "Desktop site" is ON / >= 768px) -->
+    <nav class="hidden md:flex items-center justify-center gap-3 lg:gap-5 xl:gap-6 flex-nowrap whitespace-nowrap" id="desktop-nav">
+      <a class="text-xs lg:text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors font-bold whitespace-nowrap" data-target="home" href="#home">Home</a>
+      <a class="text-xs lg:text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors font-bold whitespace-nowrap" data-target="services" href="#services">Services</a>
+      <a class="text-xs lg:text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors font-bold whitespace-nowrap" data-target="why-us" href="#why-us">Why Us</a>
+      <a class="text-xs lg:text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors font-bold whitespace-nowrap" data-target="about" href="#about">About</a>
+      <a class="text-xs lg:text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors font-bold whitespace-nowrap" data-target="founder" href="#founder">Founder</a>
+      <a class="text-xs lg:text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors font-bold whitespace-nowrap" data-target="gallery" href="#gallery">Gallery</a>
+      <a class="text-xs lg:text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors font-bold whitespace-nowrap" data-target="testimonials" href="#testimonials">Testimonials</a>
+      <a class="text-xs lg:text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors font-bold whitespace-nowrap" data-target="contact" href="#contact">Contact</a>
+    </nav>
+
+    <!-- Right: Brand Emblem & Mobile Hamburger Button (Hidden when "Desktop site" is ON / >= 768px) -->
+    <div class="flex items-center gap-3 shrink-0">
+      <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0">
+        <svg class="w-4 h-4 text-on-primary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.242-4.242 3 3 0 004.242 4.242Z15 6a3 3 0 104.242 4.242A3 3 0 0015 6z" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </div>
+      <button aria-expanded="false" aria-label="Toggle Menu" class="md:hidden w-11 h-11 flex items-center justify-center rounded-lg bg-surface-container-low text-on-surface border border-outline-variant/40 hover:bg-surface-container-high transition-colors focus:outline-none" id="mobile-menu-btn" type="button">
+        <span class="material-symbols-outlined text-[24px]" id="menu-icon">menu</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Full-Width Solid Mobile Dropdown Menu (Strictly Mobile Viewport < 768px) -->
+  <div class="md:hidden fixed top-20 left-0 right-0 w-full bg-[#fff9ec] border-b-2 border-primary-container shadow-2xl z-40 overflow-y-auto max-h-[calc(100vh-5rem)] transition-all duration-200 ease-out" id="mobile-menu" style="display: none; opacity: 0; transform: translateY(-8px);">
+    <nav class="flex flex-col w-full px-4 py-3 divide-y divide-outline-variant/30">
+      <a class="flex items-center justify-between w-full min-h-[48px] px-4 text-label-lg uppercase text-on-surface-variant hover:text-primary hover:bg-surface-container-low rounded-lg transition-colors font-bold" data-target="home" href="#home">Home</a>
+      <a class="flex items-center justify-between w-full min-h-[48px] px-4 text-label-lg uppercase text-on-surface-variant hover:text-primary hover:bg-surface-container-low rounded-lg transition-colors font-bold" data-target="services" href="#services">Services</a>
+      <a class="flex items-center justify-between w-full min-h-[48px] px-4 text-label-lg uppercase text-on-surface-variant hover:text-primary hover:bg-surface-container-low rounded-lg transition-colors font-bold" data-target="why-us" href="#why-us">Why Us</a>
+      <a class="flex items-center justify-between w-full min-h-[48px] px-4 text-label-lg uppercase text-on-surface-variant hover:text-primary hover:bg-surface-container-low rounded-lg transition-colors font-bold" data-target="about" href="#about">About</a>
+      <a class="flex items-center justify-between w-full min-h-[48px] px-4 text-label-lg uppercase text-on-surface-variant hover:text-primary hover:bg-surface-container-low rounded-lg transition-colors font-bold" data-target="founder" href="#founder">Founder</a>
+      <a class="flex items-center justify-between w-full min-h-[48px] px-4 text-label-lg uppercase text-on-surface-variant hover:text-primary hover:bg-surface-container-low rounded-lg transition-colors font-bold" data-target="gallery" href="#gallery">Gallery</a>
+      <a class="flex items-center justify-between w-full min-h-[48px] px-4 text-label-lg uppercase text-on-surface-variant hover:text-primary hover:bg-surface-container-low rounded-lg transition-colors font-bold" data-target="testimonials" href="#testimonials">Testimonials</a>
+      <a class="flex items-center justify-between w-full min-h-[48px] px-4 text-label-lg uppercase text-on-surface-variant hover:text-primary hover:bg-surface-container-low rounded-lg transition-colors font-bold" data-target="contact" href="#contact">Contact</a>
+    </nav>
+  </div>
 </header>
 <main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
 <!-- SECTION 1: HERO / BANNER SECTION (Background: White / surface) -->
@@ -515,67 +523,93 @@
 </footer>
 </div></main><a aria-label="WhatsApp Consultation" class="fixed bottom-6 right-6 z-50 rounded-full w-14 h-14 flex items-center justify-center bg-[#25D366] text-white shadow-2xl hover:scale-110 transition-transform" href="https://wa.me/9834941993?text=Hi%20Want%20to%20get%20do%20enquirey%20regarding%20Formal%20%20Custom%20Tailoring%20%20Ethnic%20%20Wedding%20Wear" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[24px]">chat</span></a>
 <script>
-  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-  const mobileMenu = document.getElementById('mobile-menu');
-  const menuIcon = document.getElementById('menu-icon');
-  let isMenuOpen = false;
+  document.addEventListener('DOMContentLoaded', () => {
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuIcon = document.getElementById('menu-icon');
+    let isMenuOpen = false;
 
-  function openMenu() {
-    isMenuOpen = true;
-    mobileMenu.style.transform = 'translateY(0)';
-    mobileMenu.style.opacity = '1';
-    mobileMenu.style.pointerEvents = 'auto';
-    menuIcon.textContent = 'close';
-  }
-
-  function closeMenu() {
-    isMenuOpen = false;
-    mobileMenu.style.transform = 'translateY(-100%)';
-    mobileMenu.style.opacity = '0';
-    mobileMenu.style.pointerEvents = 'none';
-    menuIcon.textContent = 'menu';
-  }
-
-  function toggleMenu() {
-    if (isMenuOpen) {
-      closeMenu();
-    } else {
-      openMenu();
+    function openMenu() {
+      isMenuOpen = true;
+      mobileMenu.style.display = 'block';
+      requestAnimationFrame(() => {
+        mobileMenu.style.opacity = '1';
+        mobileMenu.style.transform = 'translateY(0)';
+      });
+      mobileMenuBtn.setAttribute('aria-expanded', 'true');
+      menuIcon.textContent = 'close';
     }
-  }
 
-  mobileMenuBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    toggleMenu();
-  });
-
-  // Close menu when clicking outside
-  document.addEventListener('click', (e) => {
-    if (isMenuOpen && !mobileMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
-      closeMenu();
-    }
-  });
-
-  // Close menu on Escape key
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && isMenuOpen) {
-      closeMenu();
-    }
-  });
-
-  // Smooth scroll links handler
-  const allNavLinks = document.querySelectorAll('nav a[data-target], #mobile-menu nav a[data-target]');
-  allNavLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      const targetId = link.getAttribute('data-target');
-      if (targetId) {
-        e.preventDefault();
-        const targetElement = document.getElementById(targetId);
-        if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
+    function closeMenu() {
+      if (!isMenuOpen) return;
+      isMenuOpen = false;
+      mobileMenu.style.opacity = '0';
+      mobileMenu.style.transform = 'translateY(-8px)';
+      mobileMenuBtn.setAttribute('aria-expanded', 'false');
+      menuIcon.textContent = 'menu';
+      setTimeout(() => {
+        if (!isMenuOpen) {
+          mobileMenu.style.display = 'none';
         }
+      }, 200);
+    }
+
+    function toggleMenu(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      if (isMenuOpen) {
+        closeMenu();
+      } else {
+        openMenu();
       }
-      closeMenu();
+    }
+
+    if (mobileMenuBtn && mobileMenu) {
+      mobileMenuBtn.addEventListener('click', toggleMenu);
+
+      // Close menu when clicking outside
+      document.addEventListener('click', (e) => {
+        if (isMenuOpen && !mobileMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+          closeMenu();
+        }
+      });
+
+      // Close menu when pressing Escape
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && isMenuOpen) {
+          closeMenu();
+        }
+      });
+
+      // Automatically reset mobile menu if viewport switches to Desktop site ON (>= 768px)
+      window.addEventListener('resize', () => {
+        if (window.innerWidth >= 768 && isMenuOpen) {
+          closeMenu();
+        }
+      });
+    }
+
+    // Smooth scroll with fixed-header offset & auto-close mobile menu
+    const allNavLinks = document.querySelectorAll('header a[data-target]');
+    allNavLinks.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        const targetId = link.getAttribute('data-target');
+        if (targetId) {
+          const targetElement = document.getElementById(targetId);
+          if (targetElement) {
+            e.preventDefault();
+            const headerOffset = 80;
+            const elementPosition = targetElement.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth'
+            });
+          }
+        }
+        closeMenu();
+      });
     });
   });
 </script><script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {"colors": {"outline": "#7f7663", "tertiary": "#5f5e5e", "on-tertiary-container": "#454544", "surface-container-high": "#fde987", "surface-bright": "#fff9ec", "on-background": "#211b00", "surface-dim": "#eeda7b", "on-secondary-fixed": "#1b1c1a", "on-error-container": "#93000a", "tertiary-container": "#b4b2b2", "surface-tint": "#735c00", "on-secondary-container": "#626360", "tertiary-fixed": "#e5e2e1", "primary-fixed-dim": "#e9c349", "primary-fixed": "#ffe088", "on-primary-container": "#554300", "secondary-fixed": "#e3e2df", "inverse-surface": "#393000", "on-error": "#ffffff", "background": "#fff9ec", "primary-container": "#d4af37", "on-surface-variant": "#4d4635", "surface-container": "#ffeea3", "on-tertiary": "#ffffff", "surface": "#fff9ec", "on-primary-fixed": "#241a00", "secondary-container": "#e0e0dc", "inverse-primary": "#e9c349", "on-tertiary-fixed-variant": "#474746", "on-secondary": "#ffffff", "on-primary": "#ffffff", "on-surface": "#211b00", "error-container": "#ffdad6", "surface-container-lowest": "#ffffff", "secondary-fixed-dim": "#c7c7c3", "surface-container-highest": "#f7e382", "surface-container-low": "#fff4c9", "tertiary-fixed-dim": "#c8c6c5", "inverse-on-surface": "#fff1b7", "outline-variant": "#d0c5af", "on-tertiary-fixed": "#1c1b1b", "surface-variant": "#f7e382", "on-secondary-fixed-variant": "#464744", "on-primary-fixed-variant": "#574500", "error": "#ba1a1a", "secondary": "#5e5f5c", "primary": "#735c00"}, "borderRadius": {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"}, "spacing": {"space-lg": "4rem", "margin": "3rem", "gutter": "2rem", "space-sm": "1rem", "space-xs": "0.5rem", "space-xl": "6rem", "space-md": "2rem"}, "fontFamily": {"headline-sm": ["Montserrat"], "label-lg": ["Montserrat"], "headline-md": ["Montserrat"], "body-md": ["Open Sans"], "headline-xl": ["Montserrat"], "body-lg": ["Open Sans"], "body-sm": ["Open Sans"], "headline-lg-mobile": ["Montserrat"], "label-sm": ["Montserrat"], "headline-lg": ["Montserrat"], "label-md": ["Montserrat"]}, "fontSize": {"headline-sm": ["18px", {"lineHeight": "24px", "fontWeight": "600"}], "label-lg": ["13px", {"lineHeight": "16px", "letterSpacing": "0.15em", "fontWeight": "500"}], "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}], "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "headline-xl": ["48px", {"lineHeight": "60px", "letterSpacing": "0.02em", "fontWeight": "700"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "headline-lg-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "0.01em", "fontWeight": "700"}], "label-sm": ["10px", {"lineHeight": "12px", "letterSpacing": "0.25em", "fontWeight": "500"}], "headline-lg": ["36px", {"lineHeight": "46px", "letterSpacing": "0.01em", "fontWeight": "700"}], "label-md": ["11px", {"lineHeight": "14px", "letterSpacing": "0.2em", "fontWeight": "500"}]}}}};</script>
